@@ -1,0 +1,143 @@
+.detail_support{
+    /* width: 100%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10%;
+  top: 50px;
+
+}
+
+
+.detail_support img{
+    /* display: flex;
+    justify-content: center; */
+    /* width: 60%; */
+    /* margin-left: 30%; */
+    object-fit: contain;
+
+}
+
+.detail_support p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+/* Affiliate_container */
+
+.affiliate_part{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-y: scroll;
+    height: 500px;
+    background-color: rgba(191, 191, 191, 0.763);
+    /* background-color: whitesmoke; */
+}
+
+/* .affiliate_part::-webkit-scrollbar{
+   
+   
+    background-color: #B8E4F0;
+     border-radius: 20px;
+    
+    border: 1px solid black;
+   
+} */
+
+.affiliate_part::-webkit-scrollbar-thumb{
+    /* background-color:#7267CB; */
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 10%;
+
+    
+}
+
+
+
+
+.affiliate_container{
+    margin-top: 5%;
+    border: 1px solid black;
+    /* width: 30%; */
+    margin-left: 5%;
+
+    margin-bottom: 5%;
+    background-color: white;
+  
+}
+.affiliate_container img{
+    width: 100%;
+   object-fit: contain;
+}
+
+.affiliate_container p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.affiliate_container button{
+margin-left: 40%;
+margin-top: 3%;
+    background-color: #3c4482;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+
+
+/* donate*/
+
+.Donote_detail{
+    margin-top: 4%;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.Donote_detail p{
+    margin-top: 30%;
+    margin-right: 10%;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+
+@media screen and (max-width:980px) {
+    .detail_support{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail_support p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .Donote_detail{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .affiliate_part{
+    grid-template-columns: 1fr 1fr;
+    font-size: 15px;
+    }
+
+    .Donote_detail p{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}

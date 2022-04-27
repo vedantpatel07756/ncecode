@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Section Arrangement</title>
+</head>
+<body>
+
+  
+        <div class="navbar">
+            <ul>
+  
+                <li> New Coding Era</li>
+                <li> <a href="">Home page</a></li>
+                <li> <a href="" > Blog page</a></li>
+                <li> <a href=""> Support Us</a></li>
+                <li> <a href=""> Contact Us</a></li>
+            </ul>
+            </div>
+
+        <div class="img">
+            <img src="Section img.png" alt="">
+        </div>
+
+        <div class="detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nemo numquam adipisci delectus? Alias assumenda, blanditiis ratione quo quam quis consequuntur veritatis dolor. Omnis rem repellendus aspernatur rerum voluptates fugiat ullam perferendis, voluptatum ab odit minus illo officia ipsa, dignissimos doloribus error quae. Sit itaque vel iusto necessitatibus, inventore dolorum.</p>
+        </div>
+
+
+        <div class="Coding">
+            <div class="title">
+                <button onclick="html()">HTML</button>
+                <button onclick="css()">CSS</button>
+                <button onclick="javascript()">JAVASCRIPT</button>
+            </div>
+
+            <div class="Code">
+ <xmp  id="html"  class="html">
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                     
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <link rel="stylesheet" href="style.css">
+                        <title>Statistic</title>
+                    </head>
+                    <body>
+                        <p id="heading">Search for Statistics</p>
+                        <div class="searchbar">
+                        
+                            <button> <a href="#"> <img src="./assest/search.png" alt=""></a></button>
+                            <input type="text" placeholder="Enter any Keyword">
+                        
+                        </div>
+                        <div class="data">
+                    
+                            <div class="Calculator">
+                                <p>Price Calculator</p>
+                                <p>How much does 1 Eur 1963 equal in today's ? Adjust the rent?</p>
+                                <p><button>Calculate price changes ></button></p>
+                            </div>
+                    
+                            <div class="statistics">
+                                <p>Name Statistics</p>
+                                <p>How much does 1 Eur 1963 equal in today's? Adjust the rent?</p>
+                                <p> <button> Search by name ></button></p>
+                            </div>
+                    
+                            <div class="table">
+                                <p>Stats Table</p>
+                                <p>Find detailed tables with time and create your own? </p>
+                                <p><button> Go to tables ></button></p>
+                            </div>
+                    
+                        </div>
+                    
+                    
+                        <div class="footer">
+                    
+                            <div class="Calendar">
+                                <p class="head">Calendar</p>
+                                <p>See the advance release of calenders in 2021</p>
+                                <p> <a href="#"> Go to Calender</a> </p>
+                            </div>
+                    
+                            <div class="news">
+                                <p class="head">Subscribe to news</p>
+                                <p>Gert the latest statistics releases and publications by e-mail</p>
+                                <p><a href="#"> Receive e-mail alerts</a></p>
+                            </div>
+                    
+                        
+                            <div class="Api">
+                                <p class="head"> Api </p>
+                                <p>Easily retrieve and integrate Statistics with your own system</p>
+                                <p><a href="#">Open Api</a></p>
+                            </div>
+                    
+                    
+                        </div>
+                    </body>
+                    </html>
+                    
+                    
+ </xmp>
+
+ <xmp id="css" class="css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
+    }
+    #heading{
+    
+        margin-top: 3em;
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: 600;
+    } 
+    
+    
+    .searchbar{ 
+        width: 80%;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 30%;
+    
+    }
+     .searchbar button img{
+        cursor: pointer;
+        margin-left: -30px;
+        width: 35px;
+        height: 35px;
+    } 
+    .searchbar button{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 50%;
+        padding-left: 40px;
+        margin-right: -40px;
+        z-index: 1000;
+        background: transparent;
+        
+    }
+    .searchbar input{
+        z-index: 0;
+        width: 50%;
+        height: 60px;
+    }
+    .searchbar input[type="text"]{
+        border-color:#A2A0B4;
+        outline: none;
+        border-radius: 12px;
+        opacity: 0.5;
+    }
+    .searchbar input[placeholder]{
+        padding-left: 60px;
+        font-size: 15px;
+    }
+    
+    
+    .data{
+        margin: 10%;
+        height: 10em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+    
+    
+    .Calculator{   
+         background-color: rgb(228, 230, 246);
+        border-radius: 12px;
+    
+    }
+    .Calculator p{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10%;
+    }
+    
+    .Calculator p button{
+        width: 90%;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        background: transparent;
+        border: solid;
+        border-color: rgb(197, 202, 238); 
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    
+    .statistics{
+        background-color: rgb(246, 228, 245);
+        border-radius: 12px;
+        margin-left: 10%;
+    }
+    
+    .statistics p{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10%;
+    }
+    
+    .statistics p button{
+        width: 90%;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 500;
+        background: transparent;
+        border: solid;
+        border-color:rgb(240, 200, 238) ; 
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .table{
+        background-color: rgb(250, 229, 229);
+        border-radius: 12px;
+        margin-left: 10%;
+    }
+    
+    .table p {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10%;
+    }
+    .table p button{
+        width: 90%;
+        height: 40px;
+        margin-top: 10%;
+        font-size: 20px;
+        font-weight: 500;
+        background: transparent;
+        border: solid;
+        border-color:rgb(247, 206, 206) ; 
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .footer{
+        margin: 10%;
+        margin-top: 15%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .Calendar{
+        border-radius: 12px;
+    }
+    
+    .Calendar p{
+        font-size: 20px;
+        margin: 10%;
+    }
+    
+    .news{
+        border-radius: 12px;
+        margin-left: 10%;
+    }
+    .news p{
+        font-size: 20px;
+        margin: 10%;
+    }
+    
+    .Api{
+        border-radius: 12px;
+        margin-left: 10%;
+    }
+    .Api p{
+        font-size: 20px;
+        margin: 10%;
+    }
+    
+    .head{
+        font-weight: 600;
+    }
+    
+ </xmp>
+
+
+ <xmp id="javascript" class="javascript">
+    No Javascript Needed
+
+ </xmp>
+            </div>
+        </div>
+
+
+
+            
+   
+        <div class="Footer">
+            <p>New Coding Era</p>
+            
+                <xmp>
+            New Coding Era is a Youtube Channel as well as a Blog Website  
+               You can practice your Skill with real world Project.
+                    You can Contact us with Contact Page,
+                      Also through Social media handle.
+
+                </xmp>
+           
+            <div class="icon">
+                      <a href="https://www.facebook.com/profile.php?id=100079912337823" target="blank"> <i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/newcodingera/" target="blank"> <i class="fa-brands fa-instagram-square"></i></a> 
+          <a href="https://www.youtube.com/channel/UCuESxsGfJB3rrfwGuX5CVgQ" target="blank">  <i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/vedant-patel-47707b210/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.pinterest.se/newcodingera/_created/" target="blank">  <i class="fa-brands fa-pinterest"></i></a>
+
+            </div>
+
+            <hr />
+
+            <p class="CopyRight">Copyright @2022-NewCodingEra</p>
+        </div>
+    
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,91 @@
+.message{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(232, 230, 230, 0.412);
+    border-radius: 12px;
+}
+.message  form p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 13%;
+
+}
+.message form{
+    width:50%;
+    margin-left: 5%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.message form input{
+    margin-top: 10px;
+    margin-left: 40%;
+    border-radius: 7px;
+    height:25px;
+    width: 80%;
+  
+}
+textarea{
+    margin-top: 10px;
+    margin-left: 40%;
+    border: 2px solid black;
+    border-radius: 7px ;
+    height:100px;
+    width: 80%;
+}
+
+textarea[placeholder]{
+    padding-left: 5%;
+}
+.message p:nth-child(5){
+    margin-left: 25%;
+}
+
+.message form input[placeholder]{
+    padding-left: 5%;
+   
+}
+
+
+.design{
+    clip-path: polygon(50% 0%, 100% 0, 100% 33%, 86% 45%, 63% 58%, 35% 69%, 0 81%, 0% 43%, 0 0);
+    width: 100%;
+    height: 300px;
+    background-color: #0551f5;
+}
+
+
+.message  form button{
+    margin-top: 10%;
+    margin-left:42% ;
+    width: 40%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: none;
+    border-radius: 12px;
+    background-color: #ff984e ;
+    color: white;
+    font-weight: 600;
+}
+
+.message  form button:hover{
+    color: black;
+}
+
+@media screen and (max-width:980px) {
+
+    .message p:nth-child(5){
+        margin-left: 25%;
+    }
+    .message{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
