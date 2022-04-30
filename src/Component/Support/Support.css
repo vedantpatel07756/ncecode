@@ -27,6 +27,7 @@
 /* Affiliate_container */
 
 .affiliate_part{
+    margin-top: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     overflow-y: scroll;
@@ -53,6 +54,9 @@
 
     
 }
+.affiliate_section{
+    margin-top: 5%;
+}
 
 
 
@@ -77,6 +81,9 @@
     font-weight: 500;
     padding-left: 5%;
     padding-right: 5%;
+}
+.affiliate_section p{
+    display: flex;
 }
 
 .affiliate_container button{
@@ -113,9 +120,25 @@ margin-top: 3%;
     font-style: italic;
 }
 
+.Donate_section p{
+    display: flex;
+}
+
+
+ul li:first-child {
+    margin-left: 7%;
+    font-size: 25px;
+    font-weight: 900;
+    color: #3c4482;
+}
+
 
 
 @media screen and (max-width:980px) {
+    .affiliate_container button{
+        margin-left: 30%;
+        margin-right: 40%;
+    }
     .detail_support{
         display: flex;
         flex-direction: column;
@@ -139,5 +162,9 @@ margin-top: 3%;
     .Donote_detail p{
         margin-right: 5%;
         margin-left: 5%;
+    }
+
+    .right{
+        width: 110%;
     }
 }
