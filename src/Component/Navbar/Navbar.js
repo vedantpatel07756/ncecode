@@ -16,10 +16,10 @@ function Navbar() {
          <div className="logo"> <li> New Coding Era</li></div>
          <div className="right">
        
-          <li> <Link to="home">Home page</Link></li>
-          <li> <Link to="blog"> Blog page</Link></li>
-          <li> <Link to="support"> Support Us</Link></li>
-          <li> <Link to="contact"> Contact Us</Link></li>
+          <li> <Link to="home">Home </Link></li>
+          <li> <Link to="blog"> Blog </Link></li>
+          <li> <Link to="support"> Support </Link></li>
+          <li> <Link to="contact"> Contact </Link></li>
        
           </div> 
           <input type="checkbox" id="check" />

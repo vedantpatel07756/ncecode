@@ -1,15 +1,26 @@
 import React from 'react';
 import './Contact.css';
+import emailjs from 'emailjs-com';
 
 
-function Contact() {
 
+const  Contact=()=> {
+function sendemail(e){
+    e.preventDefault();
+    emailjs.sendForm('service_c485se6','template_ju3j6n8',e.target,'NggmySREufx-h2BC0' ).then(res=>{
+        console.log(res);
+        alert("Your message send successfully!");
+    }).catch(err=>{
+        console.log(err);
+        alert("we are facing some tecnical error");
+    })
+}
  
 
     return (
         <>
             <div className="message">
-                <form action={"Mail.php"}>
+                <form onSubmit={sendemail}>
                     <p>Name</p>
                     <input type={'text'} name={"Name"} id="" placeholder={'Enter Your Name'} required />
                     <p>Email</p>
