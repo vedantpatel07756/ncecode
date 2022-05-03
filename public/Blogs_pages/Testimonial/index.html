@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Favicon.png" />
+
+    <!-- Fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Testimonial</title>
+</head>
+<body>
+
+  
+        <div class="navbar">
+            <ul>
+  
+                <div class="left"><li> New Coding Era</li></div>
+               <div class="right"> <li> <a href="https://newcodingera.org">Back to home></a></li></div>
+            </ul>
+            </div>
+
+        <div class="img">
+            <img src="image.jpg" alt="">
+        </div>
+
+        <div class="detail">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nemo numquam adipisci delectus? Alias assumenda, blanditiis ratione quo quam quis consequuntur veritatis dolor. Omnis rem repellendus aspernatur rerum voluptates fugiat ullam perferendis, voluptatum ab odit minus illo officia ipsa, dignissimos doloribus error quae. Sit itaque vel iusto necessitatibus, inventore dolorum.</p>
+        </div>
+
+
+        <div class="Coding">
+            <div class="title">
+                <button onclick="html()">HTML</button>
+                <button onclick="css()">CSS</button>
+                <button onclick="javascript()">JAVASCRIPT</button>
+            </div>
+<!--************************************************** codding******************************************* -->
+            <div class="Code">
+ <xmp  id="html"  class="html">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Testimonial</title>
+    </head>
+    <body>
+        <p class="head"><img src="./assest/symbol.png" alt=""></p>
+        <p class="review">Our Client About Us</p>
+        <div class="container">
+           
+            <div class="box">
+    
+                <img src="./assest/symbol.png" alt="">
+                <img src="./assest/pic1.jpeg" alt="">
+                <p class="name">Paul Adams</p>
+                <span class="skill">UX Designer</span>
+                <hr>
+                <p class="detail">
+                    Amazing Design Love the work. I am looking foreword to doing another business with you.
+                </p>
+                
+            </div>
+    
+            <div class="box">
+    
+                <img src="./assest/symbol.png" alt="">
+                <img src="./assest/pic2.jpeg" alt="">
+                <p class="name">Sam Olidel</p>
+                <span class="skill">Graphic Designer</span>
+                <hr>
+                <p class="detail">
+                   My team wear happy the result,so thank you
+                </p>
+                
+            </div>
+    
+            <div class="box">
+    
+                <img src="./assest/symbol.png" alt="">
+                <img src="./assest/pic3.jpeg" alt="">
+                <p class="name">John Doe</p>
+                <span class="skill">Web Developer</span>
+                <hr>
+                <p class="detail">
+                   All my clients are happy without works and i don't think I would have made it with out you.
+                </p>
+                
+            </div>
+    
+            <div class="box">
+    
+                <img src="./assest/symbol.png" alt="">
+                <img src="./assest/pic4.jpeg" alt="">
+                <p class="name">Samantha Dan</p>
+                <span class="skill">Backend Developer</span>
+                <hr>
+                <p class="detail">
+                   Thanks for helping me vasualize my projects.
+                </p>
+                
+            </div>
+            
+            <div class="box">
+    
+                <img src="./assest/symbol.png" alt="">
+                <img src="./assest/pic5.jpeg" alt="">
+                <p class="name">Micheal Baker</p>
+                <span class="skill">Logo Designer</span>
+                <hr>
+                <p class="detail">
+                   Quick and baranding project was a success because of you, thanks.
+                </p>
+                
+            </div>
+    
+            <div class="box">
+    
+                <img src="./assest/symbol.png" alt="">
+                <img src="./assest/pic6.jpeg" alt="">
+                <p class="name">Micheal Baker</p>
+                <span class="skill">Logo Designer</span>
+                <hr>
+                <p class="detail">
+                    Quick and baranding project was a success project was a success because of you, thanks.
+                </p>
+                
+            </div>
+    
+        </div>
+    </body>
+    </html>
+                   
+ </xmp>
+
+ <xmp id="css" class="css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .head{
+        margin-top: 50px;
+        }
+    .head img{
+        margin-left: 50%;
+        width: 50px;
+    }
+    .review{
+        text-align: center;
+        margin-top: 2%;
+        font-size: 20px;
+        font-weight: 600;
+        opacity: 0.7;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
+        margin:10%;
+        margin-top: 8%;
+    }
+    .box{
+        box-shadow: 10px 10px 20px  grey;
+        border-radius: 12px;
+    }
+    .box img:nth-child(1){
+        position: absolute;
+        width: 2%;
+        height: 4%;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+    .box img:nth-child(2){
+        width: 20%;
+        height: 30%;
+        border-radius: 50%;
+        margin-top: 5%;
+        margin-left: 40px;
+    
+    }
+    .name{
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 120px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .skill{
+        margin-left: 6px;
+        font-size:15px ;
+        font-weight: 600;
+    }
+    .box hr{
+        width: 60%;
+        margin-left: 30%;
+        margin-right: 10%;
+    }
+    
+    .detail{
+        margin-left: 10%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+     
+ </xmp>
+
+
+ <xmp id="javascript" class="javascript">
+    No Javascript Needed
+
+ </xmp>
+            </div>
+        </div>
+
+
+
+            
+   
+        <div class="Footer">
+            <p>New Coding Era</p>
+            
+                <xmp>
+            New Coding Era is a Youtube Channel as well as a Blog Website  
+               You can practice your Skill with real world Project.
+                    You can Contact us with Contact Page,
+                      Also through Social media handle.
+
+                </xmp>
+           
+            <div class="icon">
+                      <a href="https://www.facebook.com/profile.php?id=100079912337823" target="blank"> <i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/newcodingera/" target="blank"> <i class="fa-brands fa-instagram-square"></i></a> 
+          <a href="https://www.youtube.com/channel/UCuESxsGfJB3rrfwGuX5CVgQ" target="blank">  <i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/vedant-patel-47707b210/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.pinterest.se/newcodingera/_created/" target="blank">  <i class="fa-brands fa-pinterest"></i></a>
+
+            </div>
+
+            <hr />
+
+            <p class="CopyRight">Copyright @2022-NewCodingEra</p>
+        </div>
+    
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import './Support.css';
 import Affiliate_container from './Affiliate_container';
-import AffiliateApi from './AffiliateApi'
+import AffiliateApi from './AffiliateApi';
 
 const Support = () => {
 
@@ -23,11 +23,7 @@ const Support = () => {
           <p>Affiliate Links</p>
           <div className="affiliate_part">
               <Affiliate_container  AffiliateData={AffiliateData}/>
-              {/* <Affiliate_container/>
-              <Affiliate_container/>
-              <Affiliate_container/>
-              <Affiliate_container/>
-              <Affiliate_container/> */}
+              
           </div>
      </div>
 

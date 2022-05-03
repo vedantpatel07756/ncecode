@@ -50,34 +50,10 @@ ul li:first-child{
     display: flex;
    justify-content: flex-end;
 }
-/* .right{
-    float: right;
-     margin-right: 5%; 
-    width: 10%;
-    font-weight: 500;
-}  */
 
 
-/* ul li img{
-    width: 40px;
-    height: 40px;
-} */
-.fa-solid{
-    color: black;
-    font-size: 30px;
-    display: none;
-}
 
-#check{
-    display: none;
- 
-       
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    /* opacity: 0; */
 
-   } 
 
 /* responsive work  */
 

@@ -11,7 +11,7 @@ const Blog_container = ({BlogData}) => {
             
               <div className="Blog_container" key={curElem.id}>
               <a href={curElem.link} target={'blank'}>
-                  <img src="./assest/Section img.png" alt="" />
+                  <img src={curElem.img} alt=""  width={"200vw"} height={"200vh"}/>
                   <p>{curElem.Title}</p>
                   <p>{curElem.Detail }</p>
                  </a>

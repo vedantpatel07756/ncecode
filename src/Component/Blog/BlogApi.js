@@ -3,57 +3,22 @@ const BlogApi = [
         id:1,
         img:"./assest/Section img.png",
         Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste.",
+        Detail:"Here you can learn, How to arrange div element with the help grid in a very effective way.",
         link:"./Blogs_pages/Section_arrangement/index.html",
-
+     },
+    {
+        id:1,
+        img:"./Blogs_pages/Payment Gateway/image.jpg",
+        Title:"Payment Gateway",
+        Detail:"A well design payment gateway can be used in any website",
+        link:"./Blogs_pages/Payment Gateway/index.html",
     },
     {
-        id:2,
-        img:"./assest/Section img.png",
-        Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste."
-    },
-    {
-        id:3,
-        img:"./assest/Section img.png",
-        Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste."
-    },
-    {
-        id:4,
-        img:"./assest/Section img.png",
-        Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste."
-    },
-    {
-        id:5,
-        img:"./assest/Section img.png",
-        Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste."
-    },
-    {
-        id:6,
-        img:"./assest/Section img.png",
-        Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste."
-    },
-    {
-        id:7,
-        img:"./assest/Section img.png",
-        Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste."
-    },
-    {
-        id:8,
-        img:"./assest/Section img.png",
-        Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste."
-    },
-    {
-        id:9,
-        img:"./assest/Section img.png",
-        Title:"Section Arrangement",
-        Detail:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad, nesciunt iusto vel esse iste."
+        id:1,
+        img:"./Blogs_pages/Testimonial/image.jpg",
+        Title:"Testimonial",
+        Detail:"Where people can share thier thought about any comapany service or product is the place testimonail is.",
+        link:"./Blogs_pages/Testimonial/index.html",
     },
 
 ]

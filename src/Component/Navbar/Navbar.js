@@ -22,9 +22,9 @@ function Navbar() {
           <li> <Link to="contact"> Contact </Link></li>
        
           </div> 
-          <input type="checkbox" id="check" />
+          {/* <input type="checkbox" id="check" /> */}
           
-          <label  for="check" class="checkbtn" > <i id='1' class="fa-solid fa-bars " ></i></label>
+          {/* <label  for="check" class="checkbtn" > <i id='1' class="fa-solid fa-bars " ></i></label> */}
       </ul>
       </div>
     </>
