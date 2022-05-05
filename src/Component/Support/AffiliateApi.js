@@ -59,6 +59,12 @@ const AffiliateApi = [
         Detail:"CREEK Blue Light Blocking Blue Cut Zero Power anti-glare Retro Square Eyeglasses,Tony Stark Frame for Eye Protection from UV by Computer/Tablet/Laptop/Mobile (With Torch and Testing Card).",
         link:"https://amzn.to/3y6pi7d",
     },
+    {
+        id:11,
+        img:"https://m.media-amazon.com/images/I/61w1PMHiZoL._SL1000_.jpg",
+        Detail:"Casio FX-82ES Plus 2nd Edition - Non-Programmable Scientific Calculator, 252 Functions",
+        link:"https://amzn.to/3P2RspG",
+    },
 ]
 
 export default AffiliateApi
