@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Favicon.png" />
+
+    <!-- Fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Course page</title>
+</head>
+<body>
+
+  
+        <div class="navbar">
+            <ul>
+  
+                <div class="left"><li> New Coding Era</li></div>
+               <div class="right"> <li> <a href="https://newcodingera.org">Back to home></a></li></div>
+            </ul>
+            </div>
+
+        <div class="img">
+            <img src="image.jpg" alt="">
+        </div>
+
+        <div class="detail">
+            <p>Course page is a page where creator can sell their skill and help other to acquire same skill on the basis of fees structure,this course page can be converted in into a product page if necessary like Amazon or Flipkart or other Platform.
+                <br>
+                <br>
+                Therefore, We come up with Simple and Attractive Design for this type of Web Pages,You can edit this as you per your need .
+                <br>
+                <br>
+                Hope so you like our effect  please Show your love to our Youtube channel and other Social Media Account.
+                <br>
+                <br>
+                Thank you 😃.
+            </p>
+        </div>
+
+
+        <div class="Coding">
+            <div class="title">
+                <button onclick="html()">HTML</button>
+                <button onclick="css()">CSS</button>
+                <button onclick="javascript()">JAVASCRIPT</button>
+            </div>
+<!--************************************************** codding******************************************* -->
+            <div class="Code">
+ <xmp  id="html"  class="html">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>Courses</title>
+        </head>
+        <body>
+            <div class="main">
+                <p>Courses</p>
+                <div class="container">
+                    
+                    <div class="Course">
+                        <img src="./assest/React Js.png" alt="" class="img">
+                        <p class="cut"> 	&#8377 1200</p>
+                        <span class="price">	&#8377 999</span><span class="offer">15% off</span>
+                        <button class="buy">Buy now</button>
+                        <button class="cart">Add cart</button>
+                        <p class="money">30-day Money-Back Guarantee</p>
+                        <p class="in">INCLUDES</p>
+                        <ul class="detail">
+                            <li>3.5 hours on demand video</li>
+                            <li>Full lifetime access</li>
+                            <li>Exercise files</li>
+                            <li>Access from anywhere</li>
+                            <li>Certificate on completion</li>
+                        </ul>
+                    </div>
+
+                    <div class="Course">
+                        <img src="./assest/Javascript.png" alt="" class="img">
+                        <p class="cut">	&#8377 1200</p>
+                        <span class="price"> &#8377 999</span><span class="offer">15% off</span>
+                        <button class="buy">Buy now</button>
+                        <button class="cart">Add cart</button>
+                        <p class="money">30-day Money-Back Guarantee</p>
+                        <p class="in">INCLUDES</p>
+                        <ul class="detail">
+                            <li>3.5 hours on demand video</li>
+                            <li>Full lifetime access</li>
+                            <li>Exercise files</li>
+                            <li>Access from anywhere</li>
+                            <li>Certificate on completion</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="Course">
+                        <img src="./assest/Why-AngularJS-A1.jpg" alt="" class="img">
+                        <p class="cut">	&#8377 1200</p>
+                        <span class="price">	&#8377 999</span><span class="offer">15% off</span>
+                        <button class="buy">Buy now</button>
+                        <button class="cart">Add to cart</button>
+                        <p class="money">30-day Money-Back Guarantee</p>
+                        <p class="in"> INCLUDES</p>
+                        <ul class="detail">
+                            <li>3.5 hours on demand video</li>
+                            <li>Full lifetime access</li>
+                            <li>Exercise files</li>
+                            <li>Access from anywhere</li>
+                            <li>Certificate on completion</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+               
+ </xmp>
+
+ <xmp id="css" class="css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(244, 247, 253);
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    .main{
+        margin-top: 10%;
+        width: 100%;
+    }
+    .main p:first-child{
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .container{
+        width: 100%;
+        margin: 5%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .Course{
+        width: 60%;
+        background-color:white;
+        border-radius: 12px;
+        height: 35em;
+        
+        box-shadow: 10px 10px rgba(173, 216, 230, 0.37);
+    }
+    .img{
+        width: 80%;
+        margin: 8%;
+        border-radius: 12px;
+        box-shadow: 10px 10px rgba(135, 165, 235, 0.37);
+    }
+    .cut{
+        margin-left: 25px;
+        text-decoration: line-through;
+    }
+    .price{
+        font-size: 2em;
+        margin-left: 25px;
+        font-weight: 600;
+    }
+    .offer{
+        background-color: green;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 5px;
+        border-radius: 12px;
+        color: aliceblue;
+    }
+    .buy{
+        margin-top: 15px;
+        margin-left: 15px;
+        width: 90%;
+        height: 40px;
+        background-color: rgb(110, 107, 255);
+        border-bottom: solid;
+        border-color:rgb(84, 81, 243) ;
+        color: aliceblue;
+        border-radius: 5px;
+        font-weight: 600;
+        box-shadow: 5px 5px rgba(95, 105, 238, 0.37);
+        cursor: pointer;
+    }
+    .buy:hover{
+        color:black;
+    }
+    .cart{
+        width: 90%;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 16px;
+        background-color: rgb(233, 233, 255);
+        border-radius:5px ;
+        color:rgb(84, 81, 243) ;
+        font-weight: 600;
+        box-shadow: 5px 5px rgba(135, 165, 235, 0.37);
+        cursor: pointer;
+    }
+    .cart:hover{
+        color: black;
+    }
+    .money{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
+        opacity: 0.7;
+        font-weight: 700;
+    }
+    .detail{
+        margin-left: 35px;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+    .in{
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    
+     
+ </xmp>
+
+
+ <xmp id="javascript" class="javascript">
+    No Javascript Needed
+
+ </xmp>
+            </div>
+        </div>
+
+
+
+            
+   
+        <div class="Footer">
+            <p>New Coding Era</p>
+            
+                <xmp>
+            New Coding Era is a Youtube Channel as well as a Blog Website  
+               You can practice your Skill with real world Project.
+                    You can Contact us with Contact Page,
+                      Also through Social media handle.
+
+                </xmp>
+           
+            <div class="icon">
+                      <a href="https://www.facebook.com/profile.php?id=100079912337823" target="blank"> <i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/newcodingera/" target="blank"> <i class="fa-brands fa-instagram-square"></i></a> 
+          <a href="https://www.youtube.com/channel/UCuESxsGfJB3rrfwGuX5CVgQ" target="blank">  <i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/vedant-patel-47707b210/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.pinterest.se/newcodingera/_created/" target="blank">  <i class="fa-brands fa-pinterest"></i></a>
+
+            </div>
+
+            <hr />
+
+            <p class="CopyRight">Copyright @2022-NewCodingEra</p>
+        </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
