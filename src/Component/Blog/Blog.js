@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <>
       <div className="banner">
-        <img src="./assest/logo_4.png" alt="" />
+        <img src="./assest/logo_4.webp" alt="" />
       </div>
 
       <div className="Blog_1">

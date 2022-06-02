@@ -9,7 +9,7 @@ const Support = () => {
   return (
    <>
      <div className="detail_support">
-       <img src="./assest/contact vector.jpg" alt="" />
+       <img src="./assest/contact vector.webp" alt="" />
        <p>We hope that you love the work of NEW CODING ERA,
        we are planning to come up very interesting thing in upcomming time, we are trying hard to reach our goal.
        For that You can Support us by using our affiliate item OR You can directly help us by donating through our UPI id. 
@@ -31,7 +31,7 @@ const Support = () => {
      <div className="Donate_section">
       <p>Donote</p>
         <div className="Donote_detail">
-          <img src="./assest/QRCODE.jpeg" alt="" />
+          <img src="./assest/QRCODE.webp" alt="" />
           <p>For supporting New Coding Era You can simply scan the Qr Code for UPI Transaction and also you can use our UPI Id.
           <br/>
           <br/>

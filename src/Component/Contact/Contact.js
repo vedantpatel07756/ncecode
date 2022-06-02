@@ -33,7 +33,7 @@ function sendemail(e){
                     <button type={"submit"}>Send &gt;  </button>
                 </form>
 
-                <img src="./assest/Contact_vector_2-removebg-preview.png" alt="" />
+                <img src="./assest/Contact_vector_2-removebg-preview.webp" alt="" />
             </div>
                     
         </>

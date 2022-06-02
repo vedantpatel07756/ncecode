@@ -7,7 +7,7 @@ function About() {
         <>
             <div className="about">
            
-                <img src={'./assest/Home.png'} alt="" />
+                <img src={'./assest/Home.webp'} alt="" />
                 <div className="about_detail">
                     <p>About</p>
                     <p>New coding era help you to improving coding skill with Real World Application Project.</p>
