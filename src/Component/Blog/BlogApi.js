@@ -41,6 +41,14 @@ const BlogApi = [
         Detail:"Course page is a page where creator can sell their skill and help other to acquire same skill on the basis of fees structure,this course page can be converted in into a product page if necessary like Amazon or Flipkart or other Platform",
         link:"./Blogs_pages/Course page/index.html",
     },
+    {
+        id:7,
+        img:"./Blogs_pages/Sign up with social media/image.jpg",
+        Title:"Course page",
+        Detail:"Sign up page with google and other social media account help user to access the system easily with the information stored in their social media account 😃.",
+        link:"./Blogs_pages/Sign up with social media/index.html",
+    },
+    
 
 ]
 
