@@ -48,6 +48,13 @@ const BlogApi = [
         Detail:"Sign up page with google and other social media account help user to access the system easily with the information stored in their social media account 😃.",
         link:"./Blogs_pages/Sign up with social media/index.html",
     },
+    {
+        id:8,
+        img:"./Blogs_pages/Footer/image.jpg",
+        Title:"Footer page",
+        Detail:"Footer pages for website with search bar 😃.",
+        link:"./Blogs_pages/Footer/index.html",
+    },
     
 
 ]
