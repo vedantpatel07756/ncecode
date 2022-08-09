@@ -55,7 +55,13 @@ const BlogApi = [
         Detail:"Footer pages for website with search bar 😃.",
         link:"./Blogs_pages/Footer/index.html",
     },
-    
+    {
+        id:9,
+        img:"./Blogs_pages/LeaderBoard/image.png",
+        Title:"LeaderBoard",
+        Detail:"The leaderboard is a board that shows the names and positions of the leading competitors 😃.",
+        link:"./Blogs_pages/LeaderBoard/index.html",
+    },
 
 ]
 
