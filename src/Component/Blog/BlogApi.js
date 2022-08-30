@@ -62,6 +62,27 @@ const BlogApi = [
         Detail:"The leaderboard is a board that shows the names and positions of the leading competitors 😃.",
         link:"./Blogs_pages/LeaderBoard/index.html",
     },
+    {
+        id:10,
+        img:"./Blogs_pages/Cancel Page/image.png",
+        Title:"Cancel Page",
+        Detail:"Cancellation pages needed to subcription based website if user are not satisfied with their then website should provide cancel page of subcription 😃.",
+        link:"./Blogs_pages/Cancel Page/index.html",
+    },
+    {
+        id:11,
+        img:"./Blogs_pages/Donate Page/image.png",
+        Title:"Donate Page",
+        Detail:"Donation Page for Open Sources Workers OR NGO's😃.",
+        link:"./Blogs_pages/Donate Page/index.html",
+    },
+    {
+        id:12,
+        img:"./Blogs_pages/Setting Page/image.png",
+        Title:"Setting Page",
+        Detail:"Setting page for lots of Functioning Website 😃.",
+        link:"./Blogs_pages/Setting Page/index.html",
+    },
 
 ]
 
